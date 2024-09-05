@@ -74,43 +74,103 @@ margin-right: 20px;
     padding: 7.5px 5px;
     margin-left: 25px;
 }
-.portfolio-item {
-    background-color: #fff;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+.myprofile .call{
+    position: absolute;
+    left: 313px; bottom: 267px;
 }
-
-.portfolio-image {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
+.myprofile .job{
+    position: absolute;
+    left: 1110px; top:138px;
 }
-
-.portfolio-title {
-    font-size: 24px;
+.myprofile .job li{ 
+    font-size: 17px;
     font-weight: bold;
-    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.myprofile .job li:last-child{
+    margin-bottom: 0;
+}
+.myprofile .job li span{
+    margin-left: 15px;
 }
 
-.portfolio-description {
-    margin: 10px 0;
-    font-size: 16px;
-    color: #666;
+.myprofile .licence{
+    position: absolute;
+    left: 1115px; top: 348px;
 }
-
-.links {
+.myprofile .licence li{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.myprofile .licence li:last-child{
+    margin-bottom: 0;
+}
+.myprofile .tool{
+    position: absolute;
+    bottom: 182px;
+    left: 1110px;
+}
+.myprofile .tool li{
+    margin-bottom: 45px;
+    margin-right: 35px;
+}
+.myprofile .tool li:last-child{
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+.cnmotor{
+    width: 1920px; height: 1024px;
+    background-color: #D5E3E3;
+    position: relative;
+}
+.cnmotor .cnmotor_title{
     display: flex;
-    gap: 10px;
+    position: absolute;
+    left: 197px; top: 53px;
+}
+.cnmotor .cnmotor_title h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+.cnmotor .cnmotor_title h2{
+    font-size: 32px;
+    line-height: 60px
+}
+.cnmotor .cnmotor_img{
+    position: absolute;
+    left: 285px; top: 212px;
+    width: 1000px; height: 600px;
+border-radius: 20px;}
+.cnmotor .cnmotor_img img{
+    width: 1000px; height: 600px;
+    border-radius: 20px;
+}
+.cnmotor .cnmotor_info{
+    position: absolute;
+    left: 1407px; top: 348px;
+}
+.cnmotor .cnmotor_info > *{
+    margin-bottom: 40px;
+}
+.cnmotor .cnmotor_info > *:last-child{
+    margin-bottom: 0;
 }
 
-.links a {
-    text-decoration: none;
-    color: #007BFF;
+.cnmotor .cnmotor_info h2{
+    font-size: 40px;
+    font-weight: bold;
 }
-
-.section-title {
-    font-size: 36px;
-    margin: 40px 0 20px;
-    text-align: left;
+.cnmotor .cnmotor_info p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.cnmotor .cnmotor_info .program_img{
+    display: flex;
+}
+.cnmotor .cnmotor_info .program_img li img{
+    margin-right: 8px;
+}
+.cnmotor .cnmotor_info .program_img li:last-child img{
+    margin-right: 0px;
 }
