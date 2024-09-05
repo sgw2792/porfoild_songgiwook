@@ -50,7 +50,7 @@ width: 1920px; height: 1024px;
     margin-bottom: 40px;
     font-size: 20px;
     display: flex;
-    font-weight: medium;
+    font-weight: bold;
 }
 .myprofile .profile_info li:nth-child(3){
     line-height: 30px;
